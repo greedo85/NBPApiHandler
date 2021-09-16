@@ -8,12 +8,12 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.5.4</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>pl.andrzejkuczmierowski</groupId>
-    <artifactId>nbpapihandler</artifactId>
+    <artifactId>NBPApiHandler</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>nbpapi</name>
+    <name>NBPApiHandler</name>
     <description>nbp api handler</description>
     <properties>
         <java.version>11</java.version>
@@ -57,7 +57,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.1</version>
+        </dependency>
     </dependencies>
 
     <build>
